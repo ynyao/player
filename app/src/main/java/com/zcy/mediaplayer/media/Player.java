@@ -39,8 +39,8 @@ public class Player implements VideoDecode.PlayVideo {
         glSurfaceView.setEGLContextClientVersion(2);
 
         glRenderer = new GLFrameRenderer(null, glSurfaceView, getDM(act));
-        // set our renderer to be the main renderer with
-        // the current activity context
+//      set our renderer to be the main renderer with
+//      the current activity context
         glSurfaceView.setRenderer(glRenderer);
 
         mVideoDecode=new VideoDecode(this);
